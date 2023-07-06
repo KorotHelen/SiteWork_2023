@@ -17,7 +17,7 @@
 }
 
 #auth form {
-    background: rgb(255, 255, 255);
+    background: rgb(145, 115, 115);
     color: rgb(17, 16, 16);
     padding: 20px;
     display: flex;
@@ -125,7 +125,7 @@ header .container {
 .section-welcome h2 {
     /* размер текста  --fsiz*/
     font-size: 10px;
-    color: #a2a1cc;
+    color: #1c1b69;
 }
 
 .section-welcome .row {
@@ -151,7 +151,7 @@ header .container {
     /* высота блока */
     /* h2 */
     height: 2px;
-    background: #fff;
+    background: #745050;
     /* включает блочное отображение */
     display: block;
     /* внешний нижний отступ */
@@ -160,7 +160,7 @@ header .container {
 }
 
 .section-welcome .row .item a {
-    color: rgb(255, 255, 255);
+    color: rgb(14, 14, 14);
     /* убирает подчеркивание ссылки */
     /* td */
     text-decoration: none;
@@ -171,7 +171,7 @@ header .container {
     content: "";
     height: 100%;
     width: 20%;
-    background-color: rgb(178, 194, 121);
+    background-color: rgb(238, 253, 19);
     transition: 1s;
 }
 
@@ -1188,4 +1188,19 @@ footer{
     padding-bottom: 10px;
 }
 
+#to-top, #to-bottom{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #61f7a5;
+    color: rgb(8, 5, 5);
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgba(27, 83, 22, 0.342);
 
+}
+
+
+#to-top{
+    z-index: 2;
+}
